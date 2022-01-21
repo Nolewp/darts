@@ -8,8 +8,7 @@ var images = [
 $('.xfield').click(function() {
   var x = $(this).data("counter") || 1;
   $(this).css({'background-image' : images[x%4],
-  
-  'background-size' : '10%',
+  'background-size' : '20%',
   'background-repeat':  'no-repeat',
   'background-position': 'center'
 })
